@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 body{
   background-color: rgb(42, 41, 41);
@@ -47,3 +48,44 @@ header{
   display: none;
 }
 
+.hero{
+  background-image: url('../Images/hero.webp');
+  background-attachment: fixed;
+  height: 100vh;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h5{
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: 700;
+  padding-bottom: 15px;
+  color: white;
+}
+.hero h1{
+  position: relative;
+  font-size: 4em;
+  color: rgb(23, 23, 23);
+  margin-bottom: 20px;
+  -webkit-text-stroke: 0.04vw #00FF7F;
+}
+
+.hero button{
+  padding: 10px 20px;
+  margin-top: 40px;
+  font-size: 1em;
+  font-weight: 600;
+  background-color: #00FF7F;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.hero button:hover{
+  background-color: #00ba5d;
+}
